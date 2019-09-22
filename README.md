@@ -5,6 +5,6 @@ Simulating vision based webpage segmentation using elements of the Block Growing
  <ul>
   <li>Scrapes plain text under 'a' tags from the FlipKart site using BeautifulSoup and Requests Python library to simulate the plain text input blocks from the paper.</li>
   <li>Calculates text density of each block using TextWrap module.</li>
-  <li>Calculates slope deltas between adjacent blocks. Merges adjacent blocks to simulate merging of text blocks for segmentation. Merging of adjacent blocks occurs if the change in slope between adjacent blocks is below a the predetermined threshold.</li>
-  <li>Outputs nested lists of merged blocks that model the desired semantic structure of the webpage.</li>
+  <li>Calculates slope deltas between adjacent blocks. Merges adjacent blocks to simulate merging of text blocks for segmentation. Merging of adjacent blocks occurs if the change in slope between adjacent blocks is below a predetermined threshold.</li>
+  <li>Outputs nested lists of merged blocks that model the desired semantic structure of the webpage after webpage segmentation is completed.</li>
   
